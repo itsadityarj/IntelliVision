@@ -1,4 +1,4 @@
-# OmniVision
+# IntelliVision
 
 AI-powered image enhancement and private photo galleries built with React, Django REST Framework, PyTorch, Real-ESRGAN, GFPGAN, and BLIP.
 
