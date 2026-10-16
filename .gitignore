@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+.venv-cpu/
+venv/
+env/
+
+# Django local files
+*.sqlite3
+backend/backend/media/
+backend/backend/.vite/
+*.log
+
+# Large model weights and generated model assets
+*.pth
+*.pb
+backend/backend/gfpgan/weights/
+backend/backend/models/
+backend/backend/imagenet_classes.txt
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Documentation artifacts kept locally
+/docs/
+DEPLOYMENT.md
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
